@@ -96,8 +96,3 @@ O app resolve para qualquer uma das 4 variáveis deixando um campo vazio.
 [![GitHub](https://img.shields.io/badge/GitHub-Felipe--SMZ-181717?style=flat&logo=github)](https://github.com/Felipe-SMZ)  
 [![Portfólio](https://img.shields.io/badge/Portfólio-devfelipeshimizu.me-0A66C2?style=flat&logo=google-chrome&logoColor=white)](https://www.devfelipeshimizu.me)
 
----
-
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
