@@ -22,7 +22,7 @@
         app:layout_constraintTop_toBottomOf="@+id/txtResultado" />
 
     <EditText
-        android:id="@+id/editC"
+        android:id="@+id/editV1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -36,10 +36,10 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editB" />
+        app:layout_constraintTop_toBottomOf="@+id/editC2" />
 
     <EditText
-        android:id="@+id/editB"
+        android:id="@+id/editC2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -53,7 +53,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editA" />
+        app:layout_constraintTop_toBottomOf="@+id/editC1" />
 
     <TextView
         android:id="@+id/textView"
@@ -72,7 +72,7 @@
 
 
     <EditText
-        android:id="@+id/editA"
+        android:id="@+id/editC1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -126,6 +126,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editC" />
+        app:layout_constraintTop_toBottomOf="@+id/editV1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

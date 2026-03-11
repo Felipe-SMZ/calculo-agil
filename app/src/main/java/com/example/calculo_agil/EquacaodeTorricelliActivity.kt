@@ -13,9 +13,9 @@ class EquacaodeTorricelliActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_equacaode_torricelli)
 
-        val editA = findViewById<EditText>(R.id.editA)
-        val editB = findViewById<EditText>(R.id.editB)
-        val editC = findViewById<EditText>(R.id.editC)
+        val editA = findViewById<EditText>(R.id.editC1)
+        val editB = findViewById<EditText>(R.id.editC2)
+        val editC = findViewById<EditText>(R.id.editV1)
         val txtResultado = findViewById<TextView>(R.id.txtResultado)
         val btnCalcular = findViewById<Button>(R.id.btnCalcular)
         val btnBack = findViewById<Button>(R.id.btnBack)

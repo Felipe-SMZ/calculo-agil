@@ -47,11 +47,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
-//        btn6.setOnClickListener {
-//            val intent = Intent(this, ForcaActivity::class.java)
-//            startActivity(intent)
-//        }
-//
+        btn6.setOnClickListener {
+            val intent = Intent(this, DiluicaoActivity::class.java)
+            startActivity(intent)
+        }
+
         btn7.setOnClickListener {
             val intent = Intent(this, AreaActivity::class.java)
             startActivity(intent)
