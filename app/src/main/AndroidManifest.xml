@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculoagil">
         <activity
+            android:name=".EquacaodeTorricelliActivity"
+            android:exported="false" />
+        <activity
             android:name=".AreaActivity"
             android:exported="false" />
         <activity

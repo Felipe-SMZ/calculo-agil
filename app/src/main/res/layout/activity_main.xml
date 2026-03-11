@@ -123,7 +123,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
         android:fontFamily="sans-serif-black"
-        android:text="Calculo Ágil"
+        android:text="Cálculo Ágil"
         android:textAppearance="@style/TextAppearance.AppCompat.Display3"
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
