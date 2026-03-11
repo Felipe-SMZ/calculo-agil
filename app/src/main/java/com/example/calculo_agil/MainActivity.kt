@@ -33,14 +33,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn3.setOnClickListener {
-            val intent = Intent(this, ::class.java)
+            val intent = Intent(this, EnergiaActivity::class.java)
             startActivity(intent)
         }
 
-//        btn4.setOnClickListener {
-//            val intent = Intent(this, ::class.java)
-//            startActivity(intent)
-//        }
+        btn4.setOnClickListener {
+            val intent = Intent(this, TemperaturaActivity::class.java)
+            startActivity(intent)
+        }
 //
 //        btn5.setOnClickListener {
 //            val intent = Intent(this, VelocidadeActivity::class.java)
