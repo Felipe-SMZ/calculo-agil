@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Calculoagil">
         <activity
+            android:name=".TelaResposta"
+            android:exported="false" />
+        <activity
+            android:name=".CadastroActivity"
+            android:exported="false" />
+        <activity
             android:name=".DiluicaoActivity"
             android:exported="false" />
         <activity

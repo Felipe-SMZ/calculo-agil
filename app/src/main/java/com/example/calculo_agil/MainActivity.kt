@@ -21,6 +21,7 @@ class MainActivity : AppCompatActivity() {
         val btn5 = findViewById<Button>(R.id.btn5)
         val btn6 = findViewById<Button>(R.id.btn6)
         val btn7 = findViewById<Button>(R.id.btn7)
+        val btnCadastro = findViewById<Button>(R.id.btnCadastro)
 
         btn1.setOnClickListener {
             val intent = Intent(this, VelocidadeActivity::class.java)
@@ -54,6 +55,11 @@ class MainActivity : AppCompatActivity() {
 
         btn7.setOnClickListener {
             val intent = Intent(this, AreaActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnCadastro.setOnClickListener {
+            val intent = Intent(this, CadastroActivity::class.java)
             startActivity(intent)
         }
 
