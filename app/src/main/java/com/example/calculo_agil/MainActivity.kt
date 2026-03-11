@@ -52,10 +52,10 @@ class MainActivity : AppCompatActivity() {
 //            startActivity(intent)
 //        }
 //
-//        btn7.setOnClickListener {
-//            val intent = Intent(this, VelocidadeActivity::class.java)
-//            startActivity(intent)
-//        }
+        btn7.setOnClickListener {
+            val intent = Intent(this, AreaActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 }
