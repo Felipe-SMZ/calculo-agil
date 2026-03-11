@@ -1,0 +1,57 @@
+# Arquivos de módulo do IntelliJ/Android Studio
+*.iml
+
+# Pasta de build do Gradle e cache
+.gradle
+
+# Configurações locais da máquina (caminho do SDK, etc.)
+/local.properties
+
+# Caches internos do Android Studio
+/.idea/caches
+
+# Bibliotecas indexadas localmente
+/.idea/libraries
+
+# Configuração dos módulos do projeto
+/.idea/modules.xml
+
+# Estado da workspace (abas abertas, breakpoints, etc.)
+/.idea/workspace.xml
+
+# Configurações do editor de navegação
+/.idea/navEditor.xml
+
+# Configurações do assistente de assets
+/.idea/assetWizardSettings.xml
+
+# Arquivo de sistema do macOS
+.DS_Store
+
+# Pasta de build gerada automaticamente
+/build
+
+# Capturas de performance/profiling
+/captures
+
+# Build nativo (C/C++)
+.externalNativeBuild
+
+# Cache do compilador nativo
+.cxx
+
+# Duplicado acima, mas mantido por compatibilidade
+local.properties
+
+# Chave de assinatura do app (NUNCA versionar!)
+*.jks
+*.keystore
+
+# Chave do Firebase (contém dados sensíveis)
+google-services.json
+
+# Arquivo de sistema do Windows
+Thumbs.db
+
+# Pasta de build do módulo principal
+app/build/
